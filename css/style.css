@@ -1,0 +1,195 @@
+html, body {
+	width:100%;
+	height:100%;
+}
+/*======= Navigation Bar Section ======= */
+.my-nav #mainnavigation.mnav {
+	background:#2d3035
+}
+.my-nav .navbar.mnav {
+	min-height:80px;
+	margin-bottom:20px;
+	border:0 solid transparent
+}
+.my-nav .nav.mnav > li > a:hover, .my-nav .nav.mnav > li > a:focus {
+	text-decoration: none;
+	background-color: rgb(32, 36, 41);
+}
+/*======= Top Padding ======= */
+.pad-top {
+	padding-top:70px;
+}
+/*======= Body Class ======= */
+.demo {
+	font-family: 'Open Sans', sans-serif;
+	color:#2d3035;
+	background:#FFF;
+}
+@media (min-width: 768px) {
+.my-nav .navbar-nav.mnav > li > a {
+color:#FFF;
+text-transform:uppercase;
+font-weight:500;
+padding:25px 8px;
+font-size:12px;
+letter-spacing:1px;
+}
+.my-nav .nav.mnav > li > a:hover, .my-nav .nav.mnav > li > a:focus {
+text-decoration:none;
+color:#00FFFF;
+background-color:transparent;
+}
+.my-nav .navbar-toggle.mnav {
+position:relative;
+float:right;
+margin-right:15px;
+padding:20px 10px;
+margin-top:8px;
+margin-bottom:8px;
+background-color:transparent;
+background-image:none;
+border:1px solid transparent;
+border-radius:4px
+}
+.my-nav .navbar.mnav #mynavbar-lg.mnav {
+display:block;
+width:100%;
+height:90px
+}
+.my-nav .navbar.mnav #mynavbar-sm.mnav {
+display:block;
+width:200px;
+height:100px
+}
+}
+.my-nav .navbar-brand.mnav {
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:200px;
+	height:70px;
+	font-family: 'Open Sans', sans-serif;
+	color:#00FFFF
+}
+
+/*======= Media Query ======= */
+@media only screen and (max-width: 768px) {
+.my-nav .navbar.mnav #mynavbar-lg.mnav {
+display:block;
+width:220px;
+background-size:cover;
+height:90px
+}
+.my-nav .navbar.mnav {
+min-height:60px
+}
+.my-nav .navbar-toggle {
+margin-right:15px;
+padding:10px 10px
+}
+}
+.my-nav .navbar-toggle .icon-bar {
+	display:block;
+	width:22px;
+	height:2px;
+	border-radius:1px;
+	background:#00FFFF
+}
+/*======= Media Query ======= */
+@media only screen and (max-width: 767px) {
+.my-nav .navbar.mnav #mynavbar-lg.mnav {
+display:block;
+height:60px;
+width:220px;
+height:90px
+}
+.my-nav .navbar-nav.mnav > li > a {
+color:#00FFFF;
+text-align:center;
+text-transform:uppercase
+}
+.my-nav .navbar-nav.mnav {
+margin:0 -15px
+}
+.my-nav .navbar-collapse {
+border-top:0 solid transparent
+}
+}
+/*********  
+3.Scroll Affix
+*********/
+.my-nav .affix.mnav {
+	padding:0;
+-webkit-transition:padding .2s linear;
+-moz-transition:padding .2s linear;
+-o-transition:padding .2s linear;
+transition:padding .2s linear;
+	background-color:rgba(45, 48, 53, 0.9);
+	-webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+.my-nav .affix-top.mnav {
+	padding-top:15px;
+	padding-bottom:15px;
+-webkit-transition:padding .5s linear;
+-moz-transition:padding .5s linear;
+-o-transition:padding .5s linear;
+transition:padding .5s linear
+}
+/*======= Media Query ======= */
+@media only screen and (max-width: 767px) {
+.my-nav .affix.mnav {
+padding:0;
+-webkit-transition:padding .2s linear;
+-moz-transition:padding .2s linear;
+-o-transition:padding .2s linear;
+transition:padding .2s linear;
+background-color:rgba(45, 48, 53, 0.9) -webkit-box-shadow: #0px #1px #5px #0px rgba(0, 0, 0, 0.5);
+-moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.5);
+box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.5)
+}
+.my-nav .affix-top.mnav {
+padding-top:15px;
+padding-bottom:15px;
+-webkit-transition:padding .5s linear;
+-moz-transition:padding .5s linear;
+-o-transition:padding .5s linear;
+transition:padding .5s linear;
+background-color:rgba(45, 48, 53, 0.9)
+}
+}
+.my-nav .title.mnav {
+	color:#fff;
+	font-size:20px;
+	margin-top:25px;
+	font-weight:bold;
+}
+
+
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*bg video*/
+#video-viewport { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1; }
+video { display: block; width: 100%; height: auto; }
+
+.fullsize-video-bg { height: 100%; overflow: hidden; }
+
+.fullsize-video-bg:before { content: ""; background: rgba(0,45,114,.35); position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; }
+
+.fullsize-video-bg .inner { display: table; width: 100%; max-width: 24em; height: 100%; margin: 0 auto; padding: 0; position: relative; z-index: 2; text-shadow: 0 1px 5px rgba(0,0,0,.5); }
+.fullsize-video-bg .inner > div { text-align: center; display: table-cell; vertical-align: middle; padding: 0 2em; }
+
