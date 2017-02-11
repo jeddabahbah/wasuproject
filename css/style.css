@@ -193,3 +193,19 @@ video { display: block; width: 100%; height: auto; }
 .fullsize-video-bg .inner { display: table; width: 100%; max-width: 24em; height: 100%; margin: 0 auto; padding: 0; position: relative; z-index: 2; text-shadow: 0 1px 5px rgba(0,0,0,.5); }
 .fullsize-video-bg .inner > div { text-align: center; display: table-cell; vertical-align: middle; padding: 0 2em; }
 
+/*css*/
+.piclogo{
+	z-index: 500;
+}
+
+.posbtn{
+	color: #fff;
+	z-index: 400;
+	margin-top: -500px;
+	background-color: rgba(0, 0, 0, 0);
+	border-width: 5px;
+	border-color: #fff;
+	border-radius: 0;
+	width: 250px;
+	height: 60px;
+}

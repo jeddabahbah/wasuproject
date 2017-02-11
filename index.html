@@ -2,7 +2,7 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>NavBar - Bootstrap - 5</title>
+  <title>MudYom</title>
   
   
 	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,greek'>
@@ -26,12 +26,14 @@
                     
                      <!-- Logo -->
                      <div class="col-sm-8" align="left">
-                        <p class="title mnav"><img src="img/logo.png" alt=""></p>
+                        <p class="title mnav">PicBand</p>
                      </div>
 
                      <div class="col-sm-4">
                         <ul class="nav navbar-nav mnav">
                            <li><a href="#">HOME</a></li>
+                           <li><a href="#">ABOUT</a></li>
+                           <li><a href="#">CONTACT</a></li>
                            <li><a href="#">ABOUT</a></li>
                            <li><a href="#">CONTACT</a></li>
 
@@ -48,7 +50,7 @@
                      <!-- Navbar Header -->
                      <div class="navbar-header mnav">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar first"></span> <span class="icon-bar hide-bar"></span> <span class="icon-bar last"></span> </button>
-                        <a class="navbar-brand mnav" href="#" id="mynavbar-sm mnav"><img src="img/logo.png" width="95%" height="95%" alt=""></a> 
+                        <a class="navbar-brand mnav" href="#" id="mynavbar-sm mnav">PicBand</a> 
                      </div>
                      <!-- /.Navbar Header --> 
                      <!-- Navbar Collapse -->
@@ -56,6 +58,8 @@
                         <ul class="nav navbar-nav navbar-right mnav">
                  
                            <li><a href="#">HOME</a></li>
+                           <li><a href="#">ABOUT</a></li>
+                           <li><a href="#">CONTACT</a></li>
                            <li><a href="#">ABOUT</a></li>
                            <li><a href="#">CONTACT</a></li>
 
@@ -76,16 +80,19 @@
       
          <section class="fullsize-video-bg">
             <div class="inner">
-               <div>
-                  <h1>Responsive Background Video</h1>
-                  <p>with color and dot-grid overlay
+               <div class="container">
+                  <div>
+                     <img class="piclogo" src="img/logo.png" alt=""><br>
+                  </div>
+                  <div>
+                     <button class="btn posbtn">Watch</button>
+                  </div>
                </div>
             </div>
 
             <div id="video-viewport">
                <video width="1920" height="1280" autoplay muted loop>
-                  <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Winter-Grass.mp4" type="video/mp4" />
-                
+                  <source src="video/mud-bg.mp4" type="video/mp4" />
                </video>
             </div>
          </section>
