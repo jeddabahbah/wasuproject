@@ -5,11 +5,13 @@
   <title>MudYom</title>
   
   
-	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,greek'>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+
 	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
+
 
   
 </head>
@@ -26,15 +28,15 @@
                     
                      <!-- Logo -->
                      <div class="col-sm-8" align="left">
-                        <p class="title mnav">PicBand</p>
+                        <p class="title mnav">BAND</p>
                      </div>
 
                      <div class="col-sm-4">
                         <ul class="nav navbar-nav mnav">
-                           <li><a href="#">HOME</a></li>
-                           <li><a href="#">ABOUT</a></li>
-                           <li><a href="#">CONTACT</a></li>
-                           <li><a href="#">ABOUT</a></li>
+                           <li><a href="#">SHOP</a></li>
+                           <li><a href="#">CART</a></li>
+                           <li><a href="#">JOURNAL</a></li>
+                           <li><a href="#">LOOKBOOK</a></li>
                            <li><a href="#">CONTACT</a></li>
 
                         </ul>
@@ -50,17 +52,17 @@
                      <!-- Navbar Header -->
                      <div class="navbar-header mnav">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar first"></span> <span class="icon-bar hide-bar"></span> <span class="icon-bar last"></span> </button>
-                        <a class="navbar-brand mnav" href="#" id="mynavbar-sm mnav">PicBand</a> 
+                        <a class="navbar-brand mnav" href="#" id="mynavbar-sm mnav">BAND</a> 
                      </div>
                      <!-- /.Navbar Header --> 
                      <!-- Navbar Collapse -->
                      <div class="collapse navbar-collapse" id="navbar_collapse">
                         <ul class="nav navbar-nav navbar-right mnav">
                  
-                           <li><a href="#">HOME</a></li>
-                           <li><a href="#">ABOUT</a></li>
-                           <li><a href="#">CONTACT</a></li>
-                           <li><a href="#">ABOUT</a></li>
+                           <li><a href="#">SHOP</a></li>
+                           <li><a href="#">CART</a></li>
+                           <li><a href="#">JOURNAL</a></li>
+                           <li><a href="#">LOOKBOOK</a></li>
                            <li><a href="#">CONTACT</a></li>
 
                         </ul>
@@ -78,7 +80,7 @@
       <!-- Fullwidth Header --> 
       <!-- Intro Header -->
       
-         <section class="fullsize-video-bg">
+         <section class="fullsize-video-bg" id="screens1">
             <div class="inner">
                <div class="container">
                   <div>
@@ -98,24 +100,82 @@
          </section>
       
       <!-- /.Fullwidth Header --> 
+         
+         <section id="screens2">
+            <div id="carousel-example" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+              </ol>
 
+              <div class="carousel-inner">
+                <div class="item active">
+                  <a href="#"><img src="img/slider/s1.jpg" /></a>
+                  <div class="carousel-caption">
+                    <h3>Some Text</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit obcaecati, aperiam sunt tempore repudiandae, veniam quibusdam atque odit soluta voluptatem reprehenderit cum minima harum, itaque qui, blanditiis velit assumenda quisquam.</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#"><img src="img/slider/s2.jpg" /></a>
+                  <div class="carousel-caption">
+                    <h3>Some Text</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eum quasi ullam optio culpa molestiae corrupti voluptate, perspiciatis officia omnis voluptas necessitatibus earum recusandae tempore tenetur impedit hic iste, nemo!</p>
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="#"><img src="img/slider/s3.jpg" /></a>
+                  <div class="carousel-caption">
+                    <h3>Some Text</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum enim possimus accusantium eveniet inventore, dignissimos provident voluptatibus non! Itaque at cum impedit distinctio molestias, aliquid porro quia animi libero est.</p>
+                  </div>
+                </div>
+              </div>
+
+              <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+            
+         </section>
+
+         <section id="screens3">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-6" align="center">
+                        <div class="picsell">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt veritatis, aperiam nesciunt nulla assumenda dicta. Cumque deserunt nulla, repellendus tempora et tenetur placeat esse! Deleniti, praesentium! Impedit dignissimos excepturi distinctio.</p>
+                        </div>
+                     </div>
+
+                     <div class="col-md-6" align="center">
+                        <div class="detail">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio alias esse enim ullam maiores aperiam quam debitis quod perferendis odit! Perferendis, reprehenderit animi quasi dolore dolores eum corporis itaque obcaecati?</p>
+                        </div>
+                     </div>   
+                  </div>                  
+               </div>
+         </section>
+
+         <section id="screens4"></section>
+
+         <section id="screens5"></section>
 		
-
-		<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi reprehenderit accusantium veniam excepturi fugit. Ipsa excepturi officia totam impedit harum voluptatibus debitis rerum corporis earum deserunt similique maiores, hic iste.</h1>
-
+      
 
       
       <div class="pad-top"></div>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="js/jquery.min.js"></script> 
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script> 
       <!-- Mynav Bar Script -->
       <script src="js/smoothscroll.js"></script> 
    
 </body>
   	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
 
     <script src="js/index.js"></script>
     <script src="js/bg-video.js"></script>
