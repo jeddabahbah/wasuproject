@@ -12,7 +12,20 @@ html, body {
 #screens3{
 	width: 100%;
 	height: 100%;
-	margin-top: 200px;
+	padding-top: 200px;
+	padding-bottom: 800px;
+	background-color: #e5e5e5;
+}
+.block{
+	padding: 10px;
+	background-color: red;
+}
+
+#screens4{
+	width: 100%;
+	height: 100%;
+	z-index: 300;
+
 }
 /*======= Navigation Bar Section ======= */
 .my-nav #mainnavigation.mnav {
@@ -287,5 +300,19 @@ video { display: block; width: 100%; height: auto; }
 }
 
 .detail{
-	background-color: green;
+	padding-top: 150px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 100px;
+	font-size: 20px;
+}
+
+.text-bg{
+	z-index: 250;
+	text-align: center;
+	margin-top: -950px;
+	font-weight: 500;
+	font-size: 420px;
+	color: #fff;
+	letter-spacing: 60px;
 }
