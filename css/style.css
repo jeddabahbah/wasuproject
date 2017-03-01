@@ -16,7 +16,7 @@ html, body {
 	padding-bottom: 800px;
 	background-color: #e5e5e5;
 }
-.block{
+.blockitem{
 	padding: 10px;
 	background-color: red;
 }
@@ -43,6 +43,7 @@ html, body {
 	width: 100%;
 	height: 100px;
 	background-color: #194E78;
+	bottom: 0;
 }
 
 .detailfooter{
@@ -341,3 +342,40 @@ video { display: block; width: 100%; height: auto; }
 	color: #fff;
 	letter-spacing: 60px;
 }
+
+/*---------------shop--------------------*/
+.product {
+				width:300px;
+				height:300px;
+				font-size: 10px;
+				font-family: 'Arial';
+				margin-bottom: 8px;
+				padding-top: 8px;
+			}
+			.container2 .product span {
+				text-transform: uppercase;
+				font-size: 8px;
+				font-family: 'Arial';
+				color: #ccc;
+				display:inline-block;
+				transform: translateY(-8px);
+			}
+			.add-to-cart {
+				margin-right: 8px;
+			}
+			.container2 {
+				display: inline-block;
+				margin: 24px;
+				text-align: center;
+				//background-color: #e5e5e5;
+			}
+
+			.container2 span.add-to-cart, .container2 span.add-to-wish {
+				font-size: 10px;
+				font-family: 'Arial';
+				font-weight: 800;
+				color: #666;
+				padding-bottom: 12px;
+				display: inline-block;
+				cursor: pointer;
+			}
