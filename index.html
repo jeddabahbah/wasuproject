@@ -4,150 +4,130 @@
   <meta charset="UTF-8">
   <title>MudYom</title>
   
-  
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+  <meta name="description" content="Web designer and front-end developer">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
       <link rel="stylesheet" href="css/style.css">
-
 
   
 </head>
 
-  <body class="demo">
-      <!-- Main Navigation -->
-      <div class="my-nav">
-         <div id="mainnavigation mnav">
-            <!-- Nav -->
-            <nav class="navbar navbar-fixed-top mnav affix-top" data-spy="affix" data-offset-top="100">
-               <div class="container">
-                  <div class="row hidden-sm hidden-xs">
-                    
-                     <!-- Logo -->
-                     <div class="col-sm-8" align="left">
-                        <p class="title mnav">BAND</p>
-                     </div>
+<body>
+  <body>
+<!-- navbar header -->
+<div class="nav-header">
+  <div class="nav-brand">
+    <img src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/bradlogo2.png">
+  </div>
+  <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="sixthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="fifthPage"><a href="#lookbook">LOOKBOOK</a></li>
+        <li data-menuanchor="fourthPage"><a href="#journal">JOURNAL</a></li>
+        <li data-menuanchor="thirdPage"><a href="#cart">CART</a></li>
+        <li data-menuanchor="secondPage"><a href="#shop">SHOP</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end navbar header -->
 
-                     <div class="col-sm-4">
-                        <ul class="nav navbar-nav mnav">
-                           <li><a href="shop.html">SHOP</a></li>
-                           <li><a href="#">CART</a></li>
-                           <li><a href="#">JOURNAL</a></li>
-                           <li><a href="#">LOOKBOOK</a></li>
-                           <li><a href="#">CONTACT</a></li>
+<!-- sidebar slider -->
+<div class="nav-screen">
+  <i class="fa fa-times fa-3x"></i>
+  <div class="nav-container">
+    <div class="nav-links">
+      <ul id='myMenu'>
+        <li data-menuanchor="secondPage"><a href="#shop">SHOP</a></li>
+        <li data-menuanchor="thirdPage"><a href="#cart">CART</a></li>
+        <li data-menuanchor="fourthPage"><a href="#journal">JOURNAL</a></li>
+        <li data-menuanchor="fifthPage"><a href="#lookbook">LOOKBOOK</a></li>
+        <li data-menuanchor="sixthPage"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end navbar slider -->
 
-                        </ul>
-                     </div>
-                     <!-- Links 02 --> 
-                  </div>
-                  <!-- /.row --> 
-               </div>
-               <!-- /.container --> 
-               <!-- Nav for small screens -->
-               <div class="container-fluid no-padding">
-                  <div class="visible-sm visible-xs">
-                     <!-- Navbar Header -->
-                     <div class="navbar-header mnav">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar first"></span> <span class="icon-bar hide-bar"></span> <span class="icon-bar last"></span> </button>
-                        <a class="navbar-brand mnav" href="#" id="mynavbar-sm mnav">BAND</a> 
-                     </div>
-                     <!-- /.Navbar Header --> 
-                     <!-- Navbar Collapse -->
-                     <div class="collapse navbar-collapse" id="navbar_collapse">
-                        <ul class="nav navbar-nav navbar-right mnav">
-                 
-                           <li><a href="#">SHOP</a></li>
-                           <li><a href="#">CART</a></li>
-                           <li><a href="#">JOURNAL</a></li>
-                           <li><a href="#">LOOKBOOK</a></li>
-                           <li><a href="#">CONTACT</a></li>
+  
 
-                        </ul>
-                     </div>
-                     <!-- /.Navbar Collapse --> 
-                  </div>
-               </div>
-               <!-- /.container-fluid --> 
-               <!-- /.Nav for small screens --> 
-            </nav>
-            <!-- /.Nav --> 
-         </div>
-      </div>
-      <!-- /.Main Navigation --> 
-      <!-- Fullwidth Header --> 
-      <!-- Intro Header -->
-      
-         <section class="fullsize-video-bg" id="screens1">
-            <div class="inner">
-               <div class="container">
-                  <div>
-                     <img class="piclogo" src="img/logo.png" alt=""><br>
-                  </div>
-                  <div>
-                     <button class="btn posbtn">Watch</button>
-                  </div>
-               </div>
+<!-- begin fullpage -->
+
+<div id="fullpage">
+
+  <!-- begin section Home screen1 -->
+
+  <div class="section shop" data-anchor="home">
+
+          <div class="video-container" style="z-index: -1000;">
+            <video autoplay="autoplay" loop id="bg-video">
+              <source src="video/mud-bg.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="container">
+            <div class="detailhome">
+                <img src="img/logo.png" alt="">
             </div>
-
-            <div id="video-viewport">
-               <video width="1920" height="1280" autoplay muted loop>
-                  <source src="video/mud-bg.mp4" type="video/mp4" />
-               </video>
+            <div>
+                <button class="btn posbtn">Watch</button>
             </div>
-         </section>
-      
-      <!-- /.Fullwidth Header --> 
-         
-         <section id="screens2">
-            <div id="carousel-example" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example" data-slide-to="1"></li>
-                <li data-target="#carousel-example" data-slide-to="2"></li>
-              </ol>
+          </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+  </div>
+  
+  <!-- end section -->
 
-              <div class="carousel-inner">
-                <div class="item active">
-                  <a href="#"><img src="img/slider/s1.jpg" /></a>
-                  <div class="carousel-caption">
-                    <h3>Some Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit obcaecati, aperiam sunt tempore repudiandae, veniam quibusdam atque odit soluta voluptatem reprehenderit cum minima harum, itaque qui, blanditiis velit assumenda quisquam.</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <a href="#"><img src="img/slider/s2.jpg" /></a>
-                  <div class="carousel-caption">
-                    <h3>Some Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eum quasi ullam optio culpa molestiae corrupti voluptate, perspiciatis officia omnis voluptas necessitatibus earum recusandae tempore tenetur impedit hic iste, nemo!</p>
-                  </div>
-                </div>
-                <div class="item">
-                  <a href="#"><img src="img/slider/s3.jpg" /></a>
-                  <div class="carousel-caption">
-                    <h3>Some Text</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum enim possimus accusantium eveniet inventore, dignissimos provident voluptatibus non! Itaque at cum impedit distinctio molestias, aliquid porro quia animi libero est.</p>
-                  </div>
-                </div>
-              </div>
+  <!-- begin section screen2 -->
 
-              <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
-            
-         </section>
+  <div class="section screen2" data-anchor="">
+    <div class="content-slide">
 
-         <section id="screens3">
-               <div class="container">
-                  <div class="row">
+        <div class="slide">          
+          <img class="wow fadeInDown" data-wow-delay="0.2s" data-src="img/slider/s1.jpg">
+          <h1 class="wow fadeInUp" data-wow-delay="0.2s">Mudyom Product1</h1>
+          <p class="wow fadeInUp" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo temporibus suscipit, quod tenetur itaque magni est et velit doloribus nostrum dolores omnis voluptas aspernatur, praesentium impedit deleniti officia reprehenderit odit?</p>
+        </div>
+
+        <div class="slide">          
+          <img data-src="img/slider/s2.jpg">
+          <h1>Mudyom Product2</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam commodi expedita, veniam nostrum praesentium magni voluptatum, dolorem distinctio unde minima placeat animi reprehenderit. In modi explicabo, eaque consequuntur placeat quidem!</p>
+        </div>
+
+        <div class="slide">          
+          <img data-src="img/slider/s3.jpg">
+          <h1>Mudyom Product3</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptas nobis eos maiores illo, pariatur illum eum molestias delectus saepe quos adipisci, labore perferendis non facere quaerat animi vitae. Expedita.</p>
+        </div>
+
+    </div>
+  </div>
+  <!-- end section -->
+
+  <!-- begin section screen3 -->
+
+  <div class="section screen3" data-anchor="">
+  <div class="content">
+                  <div class="row wow fadeInUp" data-wow-delay="0.2s">
                      <div class="col-md-6 blockitem" align="center">
                         <div>
-                           <img class="img-responsive piccase" src="img/case.jpg" alt="_case">
+                           <img class="img-responsive casepic" src="img/case.jpg" alt="_case">
                         </div>
                      </div>
 
@@ -157,44 +137,74 @@
                         </div>
                      </div>   
                   </div>                  
-               </div>
-         </section>
+         
+    </div>
+    
+  </div>
+  <!-- end section -->
 
-         <section id="screens4">
+  <!-- begin section screen4 -->
+
+  <div class="section screen4" data-anchor="">
+    <div class="content wow fadeInDown" data-wow-delay="0.2s">
+            <div class="image">
+
+            <img class="sizeimage" src="img/bg.jpg" alt="" />
             
-            <div>
-               <img src="img/bg.jpg" alt="_bg">
-               <p class="text-bg">TEXT</p>
+            <h2>TEXT</h2>
+
             </div>
-         </section>
+      </div>
+  </div>
 
-         <section id="screens5">
-            
-               <div class="row picinbot">
-                  <div class="col-md-3"><img src="img/01.jpg" width="350" alt=""></div>
-                  <div class="col-md-3"><img src="img/03.jpg" width="350" alt=""></div>
-                  <div class="col-md-3"><img src="img/02.jpg" width="350" alt=""></div>
-                  <div class="col-md-3"><img src="img/04.jpg" width="350" alt=""></div>
-               </div>               
-            
-         </section>
+ <!-- end section -->
 
-         <footer class="footer">
-            <p class="detailfooter">© By _Jeddx</p>
-         </footer>
-		
-      
+   <!-- begin section screen5 -->
 
-      
-      <!-- Mynav Bar Script -->
-      <script src="js/smoothscroll.js"></script> 
-   
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <div class="section screen5" data-anchor="">
+    <div class="content">
+              <div class="row blockpic wow fadeInDown" data-wow-delay="0.2s">
+              <div class="col-md-4"><img src="img/02.jpg" width="350" alt=""></div>
+                  <div class="col-md-4"><img src="img/01.jpg" width="350" alt=""></div>
+                  <div class="col-md-4"><img src="img/03.jpg" width="350" alt=""></div>
+                  
+               </div>   
+               <div class="row blockpic wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="col-md-4"><img src="img/01.jpg" width="350" alt=""></div>
+                  <div class="col-md-4"><img src="img/03.jpg" width="350" alt=""></div>
+                  <div class="col-md-4"><img src="img/02.jpg" width="350" alt=""></div>
+                  
+               </div>                   
+  </div>
+ </div>
+ <!-- end section -->
 
+  <!-- begin section footer -->
 
+  <div class="section fp-auto-height">
+    <div class="footer">
+      <p>copyright by thedx___</p>
+      <div class="social-links">
+        <span><a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+        <span><a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
+        <span><a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+        <span><a href="#" target="_blank"><i class="fa fa-codepen fa-2x"></i></a></span>
+      </div>
+    </div>
+  </div>
+  <!-- end section -->
+
+</div>
+<!-- end fullpage -->
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+</body>
+  
     <script src="js/index.js"></script>
-    <script src="js/bg-video.js"></script>
+    <script src="js/bgvideo.js"></script>
 
 </body>
 </html>
