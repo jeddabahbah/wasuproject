@@ -100,6 +100,43 @@ body {
  }
 
  .screenshop{
+    background-color: #474A4E;
     width: 100%;
-    max-width: 1920px;
+    max-width: 5000px;
+    padding-top: 150px;
  }
+
+ .product {
+  width: 300px;
+  height: 300px;
+  font-size: 10px;
+  font-family: 'Arial';
+  margin-bottom: 8px;
+  padding-top: 8px;
+}
+.container2 .product span {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Arial';
+  color: #ccc;
+  display: inline-block;
+  transform: translateY(-20px);
+}
+.add-to-cart {
+  margin-right: 8px;
+}
+.container2 {
+  display: inline-block;
+  margin: 24px;
+  text-align: center;
+}
+.container2 span.add-to-cart,
+.container2 span.add-to-wish {
+  font-size: 10px;
+  font-family: 'Arial';
+  font-weight: 800;
+  color: #666;
+  padding-bottom: 12px;
+  display: inline-block;
+  cursor: pointer;
+}

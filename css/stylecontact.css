@@ -1,0 +1,477 @@
+/*GLOBAL STYLE*/
+
+
+
+#icons {
+  position: absolute;
+  z-index: 99999;
+  right: 1.5%;
+  top: 5%;
+  color: #ffffff;
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  z-index: 99999;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+
+/*MENU*/
+
+#menu-container {
+  position: absolute;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 400px;
+  background-color: rgba(198, 144, 177, 0.5);
+  transform: translateX(-200px);
+  color: #fff;
+  transition: all 1s;
+}
+
+#menu-btn {
+  position: absolute;
+  z-index: 999999;
+  cursor: pointer;
+  height: 60px;
+  display: inline-block;
+  left: 2%;
+  top: 3%
+}
+
+#navbar {
+  color: #000000;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 20px;
+  font-family: 'Space Mono', monospace;
+  font-style: bold;
+}
+
+#moveTohome,
+#moveToabout,
+#moveToproducts,
+#moveTocontact,
+#moveTofindus {
+  cursor: pointer;
+}
+
+#close-btn {
+  color: #ccc;
+  position: absolute;
+  z-index: 999999;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+}
+
+
+/*HOME PAGE*/
+
+.video-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  z-index: 99;
+  filter: grayscale(50%);
+  -webkit-filter: grayscale(100%);
+}
+
+.video-content {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 9999;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+
+#logo {
+  font-size: 13em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#subtext {
+  font-size: 2em;
+  font-family: 'Space Mono', monospace;
+}
+
+#footerbar {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  z-index: 999999;
+  background-color: #000000;
+  font-family: 'Space Mono', monospace;
+  bottom: 0;
+  text-align: center;
+  color: #ffffff;
+  line-height: 50px;
+}
+
+#home {
+  background-color: #C690B1;
+}
+
+
+/*SECTIONS*/
+
+.section {
+  background-size: cover;
+  background-position: center;
+}
+
+#about {
+  background-color: #000000;
+}
+
+.about-content {
+  text-align: center;
+  color: #ffffff;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#aboutline1 {
+  font-size: 6.6em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#aboutpara {
+  font-size: 1em;
+  font-family: 'Space Mono', monospace;
+  text-align: justify;
+}
+
+#products {
+  background-color: #000000;
+}
+
+#contact {
+  background-color: #000000;
+  text-align: center;
+}
+
+#contactheader {
+  padding-top: 100px;
+  font-size: 7em;
+  font-family: 'Permanent Marker', cursive;
+  color: #ffffff;
+}
+
+#findus {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Space Mono', monospace;
+}
+
+
+/*GALLERY*/
+
+#gallery1desktop #gallery1mobile {
+  height: 100%;
+  padding-top: 10%;
+}
+
+#img1 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1253.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img2 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1252.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img3 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1250.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img4 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1436.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img5 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1435.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img6 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1437.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img7 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1433.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img8 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1434.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+#img9 {
+  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1251.JPG');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+
+/*FORM*/
+
+#contactform {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: 'Space Mono', monospace;
+}
+
+#checkboxes {
+  text-align: left;
+  color: #ffffff;
+}
+
+.contactform {
+  background-color: #696969;
+  color: #ffffff;
+}
+
+#submitbtn {
+  background-color: rgba(198, 144, 177, 1);
+}
+
+
+/*MAP*/
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+#maptext {
+  padding-top: 10px;
+}
+
+
+/*ETC*/
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 700px) {
+  #home {
+    width:100%;
+    background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/Blink_SemiYangPhotographer.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(100%);
+  }
+  
+  
+
+  #logo {
+    font-size: 6em;
+  }
+  #subtext {
+    font-size: 1em;
+  }
+  #aboutline1 {
+    font-size: 3em;
+  }
+  #aboutpara {
+    font-size: .7em;
+  }
+  #contactform {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #contactheader {
+    font-size: 4em;
+  }
+  #footerbar {
+    font-size: .8em;
+  }
+  #map {
+    height: 200px;
+  }
+  #findus {
+    font-size: .8em;
+  }
+}
+
+
+/*nav-bar*/
+
+/* Nav Screen */
+
+  .nav-screen {
+    height: 100%;
+    z-index: 500;
+    position: fixed;
+    background-color: #000;
+    opacity: 1;
+     right: -285px;  /* start off behind the scenes */
+    -webkit-font-smoothing: antialiased;
+    position: fixed;
+    width: 285px;
+  }
+
+  .nav-screen .active {
+    display: block;
+  }
+
+
+  /* nav header links */
+
+  .nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+
+  .fa-bars {
+    display: none !important;
+    color: #FF6363;
+    float: right;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    z-index: 500;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #FF6363;
+    float: right;
+    padding: 20px;
+    right: 0;
+    z-index: 600;
+    cursor: pointer;
+  }
+
+  .header-links {
+   position: fixed;
+  width: 100%;
+  z-index: 500;
+  }
+
+  .header-links li {
+    color: white;
+    display: inline;
+    float: right;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .header-links a {
+    color: #757575;
+    -webkit-transition: all 0.2s ease-in;
+  }
+
+  .header-links a:hover {
+    color: #FF6363 !important;
+  }
+
+  /* slide out nav menu styles */
+
+  .nav-container {
+    padding-top: 10%;
+  }
+
+  .nav-links {
+    width: 250px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-links ul {
+    margin-top: 15%;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+
+  .nav-links a {
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 2.5;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-links a:hover {
+    color: #FF6363;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+  }
+
+  #fp-nav ul li .fp-tooltip {
+    color: #5F5F5F !important;
+  }

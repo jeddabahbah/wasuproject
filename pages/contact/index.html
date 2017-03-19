@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  Louisa Ainsworth</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Space+Mono" rel="stylesheet">
+
+<div id="header" class="row"></div>
+<div id="icons">
+  <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true" id="facebookicon"></i></a>
+  <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x fa-fw" aria-hidden="true" id="instagramicon"></i></a>
+  <a href="http://www.yelp.com" target="_blank"><i class="fa fa-yelp fa-2x" aria-hidden="true" id="yelpicon"></i></a>
+</div>
+
+<div id="menu-container">
+  <button type="button" class="close" aria-label="Close" id="close-btn">
+    <span aria-hidden="true">&times;</span></button>
+
+
+  <div id="navbar">
+    <br><span id="moveTohome">home</span><br><br><span id="moveToabout">about</span><br><br><span id="moveToproducts">lookbook</span><br><br><span id="moveTocontact">contact</span><br><br><span id="moveTofindus">find us</span></div>
+</div>
+
+<div id="page-container">
+  <img src="https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/ITGM_eyesanimation-01.png" id="menu-btn" />
+</div>
+
+<div class="pagecontainer">
+
+  <div class="section" id="home">
+    <div class="video-container hidden-sm hidden-xs">
+      <video src="https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_0771.mp4" autoplay muted loop /></video></div>
+    
+      <div class="video-content">
+        <h1 id="logo">blink</h1>
+        <p id="subtext">your newest retail obsession</p>
+      </div>
+    
+    <div class="row" id="footerbar">2 Main St | Ann Arbor MI 48104 | 734.555.5555
+    </div>
+    <div class="slide" id="homeslide">
+    </div>
+  </div>
+
+
+  <div class="section" id="about">
+    <div class="slide" id="aboutslide">
+      <div class="about-content">
+        <h1 id="aboutline1">we are inspired</h1>
+        <p id="aboutpara">by wacky fashion from around the world. Here at BLINK we believe in cultivating a personal style that doesn't adhere to any rules or guidelines. Go crazy, get creative, wear whatever you think is cool and forget the rest that tells you otherwise!
+          Sourcing products from around the world, we love tracking street styles that are totally out there. We hope you love our selection, come back and see us again soon!</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="section" id="products">
+
+    <div class="slide" id="productslide1">
+
+      <div class="hidden-sm hidden-xs" id="productslide1desktop">
+        <div class="row" id="gallery1desktop">
+          <div class="col-md-3" id="img1"></div>
+          <div class="col-md-6" id="img2"></div>
+          <div class="col-md-3" id="img3"></div>
+        </div>
+      </div>
+
+      <div class="hidden-md hidden-lg" id="productslide1mobile">
+        <div class="row" id="gallery1mobile">
+          <div class="col-md-12" id="img5"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="slide" id="productslide2">
+
+      <div class="hidden-sm hidden-xs" id="productslide2desktop">
+        <div class="row" id="gallery2desktop">
+          <div class="col-md-3" id="img4"></div>
+          <div class="col-md-6" id="img5"></div>
+          <div class="col-md-3" id="img6"></div>
+        </div>
+      </div>
+
+      <div class="hidden-md hidden-lg" id="productslide2mobile">
+        <div class="row" id="gallery2mobile">
+          <div class="col-sm-6 col-xs-6" id="img1"></div>
+          <div class="col-sm-6 col-xs-6" id="img3"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="slide" id="productslide3">
+
+      <div class="hidden-sm hidden-xs" id="productslide3desktop">
+        <div class="row" id="gallery3desktop">
+          <div class="col-md-3" id="img7"></div>
+          <div class="col-md-6" id="img8"></div>
+          <div class="col-md-3" id="img9"></div>
+        </div>
+      </div>
+
+      <div class="hidden-md hidden-lg" id="productslide3mobile">
+        <div class="row" id="gallery3mobile">
+          <div class="col-md-12" id="img6"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="section" id="contact">
+    <h1 id="contactheader">let's chat</h1>
+    <div class="col-md-12 col-xs-12">
+      <form action="server.com" id="contactform">
+        <input type="text" class="form-control contactform" placeholder="name" required id="name" /><br>
+        <input type="email" class="form-control contactform" placeholder="email" id="email" /><br>
+        <input type="tel" class="form-control contactform" placeholder="phone number" id="phone" /><br>
+        <textarea class="form-control contactform" rows="3" placeholder="what can we help you with today?"></textarea><br>
+        <div id="checkboxes">
+          <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> I'm looking for a specific product
+</label><br>
+          <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> I have questions about hours and location
+</label><br>
+          <label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> I have wholesale inquiries
+          </label></div><br><br>
+        <input class="btn-lg" type="submit" id="submitbtn" />
+      </form>
+    </div>
+
+    <div class="slide" id="contactslide">
+    </div>
+  </div>
+
+  <div class="section" id="findus">
+    <div id="map"></div>
+    <p id="maptext">We're located at 2 Main St, Ann Arbor Michigan. Come by 7 days a week 11am to 6pm.</p>
+    <script>
+      var map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {
+            lat: 42.294834,
+            lng: -83.758972
+          },
+          zoom: 14,
+          scrollwheel: false,
+          styles: [{
+              "featureType": "all",
+              "elementType": "all",
+              "stylers": [{
+                "saturation": "-100"
+              }, {
+                "lightness": "-15"
+              }]
+            }]
+  
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2897DqlKXr0EyvvV5CUHMd3JsaE_4dpo&callback=initMap" async defer></script>
+
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/vendors/scrolloverflow.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.8/jquery.fullPage.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
