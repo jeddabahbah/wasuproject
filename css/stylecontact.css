@@ -63,7 +63,7 @@ h3 {
   text-align: center;
   padding-top: 80px;
   font-size: 20px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Raleway', sans-serif !important;
   font-style: bold;
 }
 
@@ -119,12 +119,12 @@ h3 {
 
 #logo {
   font-size: 13em;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #subtext {
   font-size: 2em;
-  font-family: 'Space Mono', monospace;
+ font-family: 'Raleway', sans-serif !important;
 }
 
 #footerbar {
@@ -133,7 +133,7 @@ h3 {
   position: absolute;
   z-index: 999999;
   background-color: #000000;
-  font-family: 'Space Mono', monospace;
+font-family: 'Raleway', sans-serif !important;
   bottom: 0;
   text-align: center;
   color: #ffffff;
@@ -153,7 +153,7 @@ h3 {
 }
 
 #about {
-  background-color: #000000;
+  background-image: url('http://i.imgur.com/oDbveog.jpg');
 }
 
 .about-content {
@@ -165,36 +165,38 @@ h3 {
 
 #aboutline1 {
   font-size: 6.6em;
-  font-family: 'Permanent Marker', cursive;
+font-family: 'Raleway', sans-serif !important;
+
 }
 
 #aboutpara {
   font-size: 1em;
-  font-family: 'Space Mono', monospace;
+font-family: 'Raleway', sans-serif !important;
   text-align: justify;
 }
 
 #products {
-  background-color: #000000;
+    background-image: url('http://i.imgur.com/BSmvoqR.jpg');
+
 }
 
 #contact {
-  background-color: #000000;
+  background-image: url('http://i.imgur.com/xy1LMKA.jpg');
   text-align: center;
 }
 
 #contactheader {
   padding-top: 100px;
   font-size: 7em;
-  font-family: 'Permanent Marker', cursive;
+ font-family: 'Raleway', sans-serif !important;
   color: #ffffff;
 }
 
 #findus {
-  background-color: #000000;
+  background-image: url('http://i.imgur.com/oDbveog.jpg');
   text-align: center;
   color: #ffffff;
-  font-family: 'Space Mono', monospace;
+ font-family: 'Raleway', sans-serif !important;
 }
 
 
@@ -206,56 +208,56 @@ h3 {
 }
 
 #img1 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1253.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img2 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1252.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img3 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1250.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img4 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1436.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img5 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1435.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img6 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1437.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img7 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1433.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
 }
 
 #img8 {
-  background-image: url('https://dl.dropboxusercontent.com/u/25504528/ITGM_content/FINAL/IMG_1434.JPG');
+  background-image: url('https://cdn.instructables.com/FIA/WZ27/IDUQWGCR/FIAWZ27IDUQWGCR.MEDIUM.jpg');
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -275,7 +277,7 @@ h3 {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 #checkboxes {

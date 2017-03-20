@@ -63,8 +63,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    anchors: ['about', 'shop', 'journal', 'lookbook', 'contact'],
-    menu: '#myMenu',
+    anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
+    
     fitToSection: false,
 
     afterLoad: function ( anchorLink, index){
