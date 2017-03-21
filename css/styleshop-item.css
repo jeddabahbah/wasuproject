@@ -159,10 +159,21 @@ select::-ms-expand {
 h1.quantity {
     color: #fff;
     font-size: 8px;
-    margin-top: 95px;
+    margin-top: 20px;
+}
+
+h1.stock {
+    color: #fff;
+    font-size: 8px;
+    margin-top: 20px;
 }
 
 input.quantity-box {
+    width: 40px;
+    height: 35px;
+    border-radius: 6px;
+}
+input.stock-box {
     width: 40px;
     height: 35px;
     border-radius: 6px;
